@@ -1,9 +1,11 @@
 # SpringCloud+Sleuth+Zipkin学习
 EurekaServer:服务注册中心
 
-Service1/2/3/4分别是最简单的web服务，其中
+Service1/2/3/4/KafkaEs分别是最简单的web服务，其中
 
-Service1调用Service2,Service2调用Service3和Service4
+Service1和ServiceKafkaEs调用Service2,Service2调用Service3和Service4
+
+ServiceKafkaEs集成了Kafka和ElasticSearch.
 
 注意：本例子中，由于springboot2.0开始官方就不推荐自己搭建ZipkinServer,
 所以这里使用官方推荐的方式启动Zipkin服务，步骤如下：
