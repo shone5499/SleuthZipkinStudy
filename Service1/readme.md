@@ -1,0 +1,4 @@
+# Service1服务
+里面配置了zipkin,此服务调用Service2
+
+链路是Service1调用Service2，Service2调用Service3和Service4
